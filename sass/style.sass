@@ -1,0 +1,94 @@
+@import variable
+
+* 
+	box-sizing: border-box
+
+body 
+	background: url('../img/foto.jpg') 0/cover no-repeat
+	min-height: 100vh
+	text-align: center
+	margin: 0
+
+h2 
+	margin-top: 0
+
+p 
+	margin: 10px
+
+ul 
+	list-style: none
+	padding: 0
+	margin-top: 20px
+	min-height: 50px
+
+.btn-delete 
+	width: 25px
+	height: 25px
+	margin-left: 50px
+	background: transparent
+	border: none
+	color: $gray
+
+	&:hover
+		color: $pink
+
+	&:focus
+		outline: none
+
+.board 
+	padding: 40px
+	position: relative
+
+.create-column 
+	padding: 10px 20px
+	background: $blue
+	border: none
+	color: $bodyColor
+
+.column		
+	width: 300px
+	margin: 0 30px 50px
+	background: $white
+	border-radius: $borderRadius
+	padding: 20px
+
+	&-container 
+		+displayFlex
+		flex-wrap: wrap
+		justify-content: space-around
+		padding: 40px 10px
+
+	&:last-of-type 
+		border: none
+
+	&-title-container
+		+displayFlex
+		justify-content: space-between
+		border-bottom: 1px solid $pink
+		margin-bottom: 20px
+		position: relative
+	
+	&-add-card 
+		padding: 5px 10px
+		background: transparent
+		border: none
+		color: $blue
+
+		&:hover
+			color: $pink
+
+		&:focus
+			outline: none
+
+.card 
+	+displayFlex
+	justify-content: space-between
+	border: 1px solid $bodyColor
+	border-radius: $borderRadius
+	margin-bottom: 5px
+	position: relative
+	padding: 5px
+
+.card-placeholder 
+	border: 1px dashed #ccc
+	min-height: 50px

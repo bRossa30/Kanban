@@ -1,0 +1,31 @@
+{
+  "name": "kanban",
+  "version": "1.0.0",
+  "description": "kanban",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bRossa30/AJAX.git"
+  },
+  "author": "bRossa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bRossa30/AJAX/issues"
+  },
+  "homepage": "https://github.com/bRossa30/AJAX#readme"
+}
